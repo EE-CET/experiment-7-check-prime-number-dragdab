@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 
 public class CheckPrime {
@@ -22,4 +21,8 @@ public class CheckPrime {
         }
 
         if (isPrime)
-            Sy
+            System.out.println(num + " is a Prime number");
+        else
+            System.out.println(num + " is not a Prime number");
+    }
+}
